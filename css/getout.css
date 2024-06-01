@@ -1,0 +1,33 @@
+ 
+body {
+background-image: url(../images/bg.svg);
+background-repeat: repeat;
+background-size: 15%;
+}
+
+.GTFO {
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);*/
+    font-size: calc(4vw + 4vh + 2vmin);
+    font-family: "Comic Sans MS", "Comic Sans", cursive, Helvetica, Arial, "Helvetica Neue", sans-serif;
+    /* font-weight: 1500;*/
+    color: #08ACDF!important;
+	line-height: 0.9;
+    text-shadow:
+    -6px -6px 0 #FD3C37,
+    6px -6px 0 #FD3C37,
+    -6px 6px 0 #FD3C37,
+    6px 6px 0 #FD3C37; 
+    margin: 0;
+}
+
+div {
+  /* display: flex;*/
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  /* border: 2px dashed #f69c55;*/
+}
